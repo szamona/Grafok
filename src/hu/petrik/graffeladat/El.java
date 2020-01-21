@@ -15,13 +15,25 @@ class El {
 
     /**
      * Létrehoz egy úgy élt.
-     * 
+     *
      * @param csucs1 Az egyik csúcs indexe
      * @param csucs2 A másik csúcs indexe
      */
+
+    private double suly;
+
     public El(int csucs1, int csucs2) {
         this.csucs1 = csucs1;
         this.csucs2 = csucs2;
+        this.suly = 1;
+    }
+
+    public double getSuly() {
+        return suly;
+    }
+
+    public void setSuly(double suly) {
+        this.suly = suly;
     }
 
     /**
