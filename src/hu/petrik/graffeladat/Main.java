@@ -13,5 +13,10 @@ public class Main {
         graf.hozzaad(2, 4);
         
         System.out.println(graf);
+        graf.szelessegiBejar(0);
+        graf.melysegiBejar(0);
+        System.out.println(graf.osszefuggo());
+        System.out.println(graf.feszitofa());
+        System.out.println(graf.mohoSzinezes());
     }
 }
